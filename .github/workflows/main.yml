@@ -1,0 +1,10 @@
+name: hello-github-action
+on: ["workflow_dispatch"]
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello to console
+        run: |
+          echo "Hey its me kodega"
+          echo "Nice to meet you!"
